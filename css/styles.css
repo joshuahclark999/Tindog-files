@@ -1,0 +1,140 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h3{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+p{
+  color: #8f8f8f;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navbar */
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+  /* Buttons */
+.dwnld-btn{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  
+}
+  /* Features */
+
+  .fe-icon{
+    padding-bottom: 20px;
+    color: #ef8172;
+  }
+  .fe-icon:hover{
+    color: #ff4c68;
+  }
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  /* testimonals */
+  #testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin-right:  15px;
+  }
+  #press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+  .press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+  }
+  /* Pricing */
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+  .price-card{
+    padding: 3% 2%;
+  }
+  /* Call to action */
+  .call-to-act{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .cta-text{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 75px;
+    color: #fff;
+  }
+  .btn-cta{
+    margin: 5% 2% 0;
+  }
+  /* footer */
+  .footer{
+    text-align: center;
+    padding: 50px 0px 50px;
+  }
+  .foot-icon{
+    padding: 0% 1% 2%;
+  }
+  .fab-1{
+    padding-right: 5px;
+  }
+  /* Media Query */
+  @media (max-width: 1028px) {
+    .title-img{
+      position: static;
+      transform: rotate(0);
+    }
+  }
